@@ -15,7 +15,7 @@ const Navigation = () => {
                         Devansh Chaubey
                     </a>
                 </Link>
-                <Link href="/about">
+                <Link href="/projects">
                     <a
                         className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500  dark:text-white"}
                     >
@@ -36,11 +36,11 @@ const Navigation = () => {
                         Education
                     </a>
                 </Link>
-                <Link href="/blogs">
+                <Link href="/resume">
                     <a
                         className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500  dark:text-white"}
                     >
-                       Blogs
+                        Resume
                     </a>
                 </Link>
                 <ThemeSwitch/>

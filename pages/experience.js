@@ -1,8 +1,10 @@
-import Head from 'next/head'
-import About from "../components/About";
+import Head from 'next/head';
+import Experience from "../components/Experience";
 
-export default function Home() {
-  return (
+
+
+export default function ExperiencePage () {
+    return ( 
     <div className="space-y-14 lg:space-y-24">
       <Head>
         <title>Devansh Chaubey</title>
@@ -10,8 +12,8 @@ export default function Home() {
       </Head>
 
       <main className="max-w-6xl mx-auto mt-16 antialiased">
-        <About/>
+      <Experience/>
       </main>
     </div>
-  )
+    )
 }
